@@ -5,7 +5,7 @@ TransCoord is a genome-guided transcriptome assembler for RNA-seq.
 TransCoord is a sensitive genome-guided transcriptome assembler for RNA-seq data. It inclusively gathers all kinds of candidate transcripts into a two-phased linear programming model that aims both to minimize coverage deviation and reserve least transcripts under conserving the must. In this way, the outcome is a coordination of all candidates, instead of a union of all independently assembled parts.
 
 ## Installation
-Because of the embedded Scallop usage, you have to install additional libraries used in [Scallop](https://github.com/Kingsford-Group/scallop/blob/master/README.md), including Boost and htslib.  
+Because of the embedded Scallop usage, you have to install additional libraries used in [Scallop](https://github.com/Kingsford-Group/scallop/blob/master/README.md), including [Boost](https://github.com/Kingsford-Group/scallop/blob/master/README.md#download-boost) and [htslib](https://github.com/Kingsford-Group/scallop/blob/master/README.md#install-htslib).  
 You also need to install a linear programming solver [Gurobi](https://www.gurobi.com/) ( free for academic license ).  
 After install these dependencies, you can compile the source code of TransCoord.
 ### Install Boost and htslib
