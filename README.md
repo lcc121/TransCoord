@@ -13,6 +13,13 @@ Same as in [Scallop](https://github.com/Kingsford-Group/scallop/blob/master/READ
 ### Install Gurobi
 First download Gurobi optimizer from this [link](https://www.gurobi.com/downloads/gurobi-optimizer-eula/). Next follow the steps of this [link](https://www.gurobi.com/downloads/end-user-license-agreement-academic/) to apply a academic license for the free usage of Gurobi. Then click the *License ID* link to the *License Details* page and follow the instructions of Installation to setup the license file on your computer.
 ### Compile TransCoord
+Use the following command to compile TransCoord:
+```
+./configure --with-htslib=/path/to/your/htslib --with-boost=/path/to/your/boost --with-gurobi=/path/to/your/gurobi
+make
+```
+Make sure that the above path is all the way to the parent dir of *lib* file.  
+The executable file `transcoord` will appear at `src/transcoord`.
 
 ## Usage
 ### Quick Start
